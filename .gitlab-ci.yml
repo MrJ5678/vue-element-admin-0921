@@ -1,0 +1,8 @@
+variables:
+  DEV_TYPE: other        # 开发分类
+  DEV_CODE: txccsqd        # 项目名称
+  PHP_EXEC: php72   # php 版本(php53 php54 php55 php56 php70)
+
+job1:
+  script:
+    - /home/site/.bin/ft_deploy.sh
